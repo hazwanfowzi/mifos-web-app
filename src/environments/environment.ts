@@ -19,7 +19,8 @@ export const environment = {
     + window.location.protocol + '//' + window.location.hostname + ':' + window.location.port,
   // For connecting to server running elsewhere set the base API URL
   // baseApiUrl: window['env']['baseApiUrl'] || window.location.protocol + '//' + window.location.hostname + ':' + window.location.port,
-  baseApiUrl: 'http://172.31.254.68:8443',
+  baseApiUrl: 'https://core.neoflex.berrypay.dev',
+  // baseApiUrl: 'http://172.31.254.68:8443',
   allowServerSwitch: env.allow_switching_backend_instance,
   apiProvider: window['env']['apiProvider'] || '/fineract-provider/api',
   apiVersion: window['env']['apiVersion'] || '/v1',

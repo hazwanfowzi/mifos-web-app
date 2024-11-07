@@ -13,7 +13,8 @@ export const environment = {
   'https://dev.mifos.io,https://demo.mifos.io,https://qa.mifos.io,https://staging.mifos.io,https://mobile.mifos.io,https://demo.fineract.dev,https://localhost:8443,http://172.31.254.68:8443',
   // For connecting to server running elsewhere set the base API URL
   // baseApiUrl: window['env']['fineractApiUrl'] || window.location.protocol + '//' + window.location.hostname,
-  baseApiUrl: 'http://172.31.254.68:8443',
+  baseApiUrl: 'https://core.neoflex.berrypay.dev',
+  // baseApiUrl: 'http://172.31.254.68:8443',
   allowServerSwitch: env.allow_switching_backend_instance,
   apiProvider: window['env']['apiProvider'] || '/fineract-provider/api',
   apiVersion: window['env']['apiVersion'] || '/v1',
