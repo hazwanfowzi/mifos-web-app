@@ -2,12 +2,8 @@
 /* tslint:disable */
 export default {
   'mifos_x': {
-<<<<<<< Updated upstream
-    'version': '241107',
-=======
-    'version': '241010',
->>>>>>> Stashed changes
-    'hash': '6b8348bd'
+    'version': '241108',
+    'hash': '2117f81f'
   },
   'allow_switching_backend_instance': true
 };
